@@ -80,7 +80,7 @@ const getFormattedWeatherData = async (searchParams) => {
   }).then(formatForecastWeather);
 
   return { ...formattedCurrentWeather, ...formattedForecastWeather };
-};
+ };
 
 const formatToLocalTime = (
   secs,
